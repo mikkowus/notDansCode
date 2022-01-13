@@ -17,11 +17,15 @@ git branch
 git checkout branch1
 
 
-##these 5 commands in sequence will upload your code to the remote git repo #(EDITS)
+##you might need to congig git
 ##Be sure the active directory (when executing these commands) contains the files to be uploaded. #(EDITS)
 git config --global user.email "you@example.com"   #(EDITS)
 git config --global user.name "Your Name"          #(EDITS)
 
+##these 5 commands in sequence will upload your code to the remote git repo #(EDITS)
+git add .
+git commit -m "a commit message"
+git push origin branch1
 
 
 ##pulls all new changes down from the remote git repo
