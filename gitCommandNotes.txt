@@ -2,9 +2,9 @@
 #Some usefull git commands
 ###################
 
-git clone https://github.com/mikkowus/carCostSimulator.git
-git clone --branch branch1 https://github.com/mikkowus/carCostSimulator.git
-git clone --branch branch1 --single-branch https://github.com/mikkowus/carCostSimulator.git
+git clone https://github.com/mikkowus/notDansCode.git
+git clone --branch branch1 https://github.com/mikkowus/notDansCode.git
+git clone --branch branch1 --single-branch https://github.com/mikkowus/notDansCode.git
 git branch branch1
 
 ##creates new branch called branch1
