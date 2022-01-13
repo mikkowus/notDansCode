@@ -1,7 +1,7 @@
 ###################
 #Some usefull git commands
 ###################
-
+###git clone https://github.com/user/repo.git
 git clone https://github.com/mikkowus/notDansCode.git
 git clone --branch branch1 https://github.com/mikkowus/notDansCode.git
 git clone --branch branch1 --single-branch https://github.com/mikkowus/notDansCode.git
@@ -17,7 +17,10 @@ git branch
 git checkout branch1
 
 
-##these 3 commands in sequence will upload your code to the remote git repo
+##these 5 commands in sequence will upload your code to the remote git repo
+##Be sure the active directory (when executing these commands) contains the files to be uploaded. 
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
 git add .
 git commit -m "a commit message"
 git push origin branch1
