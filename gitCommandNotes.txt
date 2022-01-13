@@ -22,7 +22,7 @@ git checkout branch1
 git config --global user.email "you@example.com"   #(EDITS)
 git config --global user.name "Your Name"          #(EDITS)
 
-##these 5 commands in sequence will upload your code to the remote git repo #(EDITS)
+##these 3 commands in sequence will upload your code to the remote git repo #(EDITS)
 git add .
 git commit -m "a commit message"
 git push origin branch1
