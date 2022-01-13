@@ -23,6 +23,6 @@ git commit -m "a commit message"
 git push origin branch1
 
 ##pulls all new changes down from the remote git repo
-git pull
+git pull origin branch1
 
 Edit some file and go back to line 20
