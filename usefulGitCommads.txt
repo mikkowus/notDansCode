@@ -2,30 +2,30 @@
 #Some usefull git commands
 ###################
 
-git clone https://github.com/mikkowus/carCostSimulator.git
-git clone --branch branch1 https://github.com/mikkowus/carCostSimulator.git
-git clone --branch branch1 --single-branch https://github.com/mikkowus/carCostSimulator.git
-git branch branch1
+git clone https://github.com/mikkowus/aRepository.git
+git clone --branch aBranch https://github.com/mikkowus/aRepository.git
+git clone --branch aBranch --single-branch https://github.com/mikkowus/aRepository.git
+git branch aBranch
 
-##creates new branch called branch1
-git checkout -b newBranchName
+##creates new branch called aBranch
+git checkout -b aBranch
 
 ##Shows you what branch you are in
 git branch 
 
-##switches you over to branch1
-git checkout branch1
+##switches you over to aBranch
+git checkout aBranch
 
 
 ##these 3 commands in sequence will upload your code to the remote git repo
 git add .
 git commit -m "a commit message"
-git push origin branch1
+git push origin aBranch
 
 ##pulls all new changes down from the remote git repo
 git pull
 
 ##not sure what the difference between this and the above lines are... but this worked
-git pull origin branch1
+git pull origin aBranch
 
 Edit some file and go back to line 20
