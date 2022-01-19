@@ -29,3 +29,5 @@ git pull
 git pull origin aBranch
 
 Edit some file and go back to line 20
+
+https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to
